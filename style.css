@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+}
+
+.navbar {
+    box-shadow: 0 4px 20px rgba(62, 59, 240, 0.1);
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+#hero-btn:hover{
+    background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
+.feature-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.3s;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0px 10px  rgb(8, 149, 243) ;
+    background-color: white;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+#resultOutput {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.course-card {
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    background: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+    background: #78a6fa;
+}
+
+footer {
+    padding: 20px 0;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer a {
+    
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #4375fd; 
+    transform: scale(1.2);
+}
+
+footer i {
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+footer i:hover {
+    color: #002855;
+}
